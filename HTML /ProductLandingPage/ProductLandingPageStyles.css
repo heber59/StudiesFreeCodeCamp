@@ -1,0 +1,22 @@
+header nav {
+    padding: 5px;
+    border-bottom: solid green 2px;
+    display: flex;
+}
+header nav button{
+    width:  100px;
+    height: 50px;
+    margin-right: 15px;
+    
+}
+header nav h1{
+    width: 100px;
+    margin:0 auto;
+    margin-top: 7px;
+}
+header nav img{
+   float: right;
+   height: 100%;
+   width: auto;  
+   padding-top: 20px;
+}

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    text-decoration: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Historic';
+    src: url('/fonts/Historic.otf') format('opentype');
+}
+h3{
+    font-family:'Montserrat',sans-serif;
+}
+
+header nav {
+    padding: 5px;
+    border-bottom: solid rgba(29, 128, 29, 0.516) 2px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(105, 212, 231, 0.461);
+}
+
+header nav .divButtons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+ /*   border: 2px solid rgba(83, 177, 83, 0.37);*/
+    border-radius: 10px;
+   /* background-color: rgba(168, 231, 231, 0.74);*/
+}
+
+header nav button {
+    background-color: rgba(105, 212, 231, 0);
+    width:100%;
+    height: 100%;
+    border: none;
+    margin-right: 15px;
+    border-right: 2px solid rgba(32, 30, 30, 0.295);
+}
+/*header nav .button-nav-col {
+    border: 2px solid rgba(40, 44, 41, 0.336);
+}*/
+header nav button a {
+    color: rgb(0, 0, 0);
+}
+header nav button a p{
+    text-decoration:double;
+    font-size: 2vh;
+}
+header nav h1 {
+    flex: 1;
+    text-align: center;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav img {
+    height: 25px;
+    width: auto;
+}
+body .contact{
+    position: fixed;
+    overflow: hidden;
+    margin:5px;
+    top: 15px;
+    right: 2vw;
+    background-color: rgba(98, 186, 226, 0.461);
+    border: 1px solid rgba(32, 230, 131, 0.516);
+    border-radius: 10% 15% 25% 35%;
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .contact button{
+    background-color: unset;
+}
+body aside .contact-div{
+    display:none;
+}
+body .places {
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+
+}
+body .places .colombia{
+    display:grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 1fr 25px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2vh;
+    width:100vw;
+    height: 500px;
+}
+body .places .colombia h2{
+    grid-column: 3/5 ;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family:sans-serif;
+}
+body .places .colombia h3{
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+}
+body .places .colombia iframe{
+    grid-column:3/5;
+    grid-row:2/5;
+    width: 100%;
+    height: 100%;
+}
+body .places .colombia p{
+    grid-column: 5;
+    grid-row: 2;
+    margin:auto;
+}
+body .places .venezuela{
+    display:grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 1fr 25px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2vh;
+    width:100vw;
+    height: 500px;
+}
+body .places .venezuela h2{
+    grid-column: 3/5 ;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family:sans-serif;
+}
+body .places .venezuela h3{
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+}
+body .places .venezuela iframe{
+    grid-column:3/5;
+    grid-row:2/5;
+    width: 100%;
+    height: 100%;
+}
+body .places .venezuela p{
+    grid-column: 5;
+    grid-row: 2;
+    margin:auto;
+}
+body .places .guatemala{
+    display:grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 1fr 25px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2vh;
+    width:100vw;
+    height: 500px;
+}
+body .places .guatemala h2{
+    grid-column: 3/5 ;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family:sans-serif;
+}
+body .places .guatemala h3{
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+}
+body .places .guatemala iframe{
+    grid-column:3/5;
+    grid-row:2/5;
+    width: 100%;
+    height: 100%;
+}
+body .places .guatemala p{
+    grid-column: 5;
+    grid-row: 2;
+    margin:auto;
+}

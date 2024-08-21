@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    text-decoration: none;
+    border: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    padding: 2vw;
+}
+body h2{
+    margin-bottom: 25px;
+}
+body input{
+    width: 150px;
+    height: 30px;
+}
+body button{
+    width: 130px;
+    height: 22px;
+    border-radius: 10px;
+    border: 2px rgb(87, 80, 80) solid;
+}
+body button:hover{
+    background-color: rgb(191, 216, 238);
+    cursor:pointer;
+}
+body fieldset{
+    width:30vw;
+}
+
+

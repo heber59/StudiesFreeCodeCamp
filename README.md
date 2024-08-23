@@ -5,14 +5,14 @@ this are the projects I make studying with free code camp
 
 1. product landing page 
 
-    - make a greate nav bar will continue with next projects in order to certifi fast,in a future 
+    - make a greate nav bar, I will continue with next projects in order to certifi fast,in a future 
     I'll end it.
 
-    - the aside should display when they click on contact also we must modifi content in body.
+    - the aside should display when they click on contact also I must modify content in body.
 
-2. personal portafolio
+2. personal portfolio
 
-    - I'll made it fast to finish html css but will end it as soon as posible.
+    - Starting, it will be a great portfolio, just need project to show :>.
 
 ### javascript 
 

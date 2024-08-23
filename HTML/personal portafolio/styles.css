@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
 }
 button{
 text-decoration: none;
@@ -9,4 +10,36 @@ border: none;
 }
 a{
 text-decoration: none;
+}
+body{
+    background-color:rgb(59, 59, 59);
+    display: grid;
+    grid-template-columns: 35% 1fr;
+
+}
+aside{
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: rgb(87, 87, 87);
+    height: 500px;
+    width:350px;
+    border-radius: 10px;
+    border: 2px solid rgb(170, 169, 169);
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+img {
+    width: auto;
+    height: 250px ;
+    padding: 25px 0px 25px 0px;
+
+}
+/* will put in main buttons in the top right to navegate, about me, projects, contact, think what more.*/
+main{
+    width: 70%;
+    height: 80vh;
+    margin-top: 100px;
+    background-color: rgb(253, 252, 190);
+    padding: 25px;
 }

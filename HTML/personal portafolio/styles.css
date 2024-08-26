@@ -10,6 +10,7 @@ border: none;
 }
 a{
 text-decoration: none;
+color: black;
 }
 body{
     background-color:rgb(59, 59, 59);
@@ -28,11 +29,60 @@ aside{
     display: flex;
     align-items: center; 
     flex-direction: column;
-}
-img {
+    /*box-shadow: 0 0 3px rgb(146, 146, 146); */
+}   
+aside img {
     width: auto;
     height: 250px ;
     padding: 25px 0px 25px 0px;
+
+}
+aside header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+aside header h1{
+    color: whitesmoke;
+}
+aside header h2{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+aside span{
+    border-top: 1px solid rgb(170, 169, 169);
+    width: 80%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside span a{
+    display: flex;
+    align-items: baseline;
+    width: 70%;
+    background-color: rgba(87, 87, 87, 0);
+}
+aside span a:hover{
+    transform: scale(1.1);
+}
+aside span a i{
+    margin-right: 10px;
+}
+aside span a p{
+    color: whitesmoke; 
+}
+aside span .mail{
+    margin-top: 35px;
+
+}
+aside span .phone{  
+    margin-top: 25px;
+
+}
+aside span .git{
+    margin-top: 20px;
 
 }
 /* will put in main buttons in the top right to navegate, about me, projects, contact, think what more.*/
@@ -40,6 +90,8 @@ main{
     width: 70%;
     height: 80vh;
     margin-top: 100px;
-    background-color: rgb(253, 252, 190);
+    background-color: rgb(87, 87, 87);
+    border: 2px solid rgb(170, 169, 169);
+    border-radius: 10px;
     padding: 25px;
 }

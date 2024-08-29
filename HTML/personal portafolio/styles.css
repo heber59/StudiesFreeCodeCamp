@@ -7,6 +7,7 @@ box-sizing: border-box;
 button{
 text-decoration: none;
 border: none;
+background-color:transparent;
 }
 a{
 text-decoration: none;
@@ -98,8 +99,51 @@ main{
 }
 main nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    width: 100%;
+    height: 45px;
 }
-main nav button {
-    margin-right: 20px;
+
+main nav div {
+    
+   /* border: 2px solid rgb(61, 61, 61);*/
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 0 10px #ffffff;
+}
+main nav div button{
+    height: 100%;
+    color: whitesmoke;
+}
+main nav div button:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px #ffffff;
+}
+main #lenguaje{
+    border-radius: 10px;
+}
+main nav #lenguaje button{
+    width: 3.3vw;
+    height: 80%;    
+}
+main nav #lenguaje #English{
+    border-right: 3px solid rgb(87, 87, 87);
+}
+main nav #navegation{
+    width: 60%;
+    height: 100%;
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 10px;
+}
+main nav #navegation button{
+    width: 25%;
+    border-right: 3px solid rgb(87, 87, 87);
+}
+main nav #navegation #others{
+    border: none;
+}
+main section { 
+    display: none;
 }

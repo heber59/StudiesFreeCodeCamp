@@ -16,12 +16,14 @@ color: black;
 body{
     background-color:rgb(59, 59, 59);
     display: grid;
-    grid-template-columns: 35% 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items:first baseline;
+    align-items: center;
 
 }
 aside{
-    margin-left: 150px;
-    margin-top: 100px;
+   margin-left: 5vw;
+    margin-top: 10vh; 
     background-color: rgb(87, 87, 87);
     height: 500px;
     width:350px;
@@ -162,5 +164,17 @@ main nav #navegation #others{
 main section { 
     margin-top: 20px;
     display: none;
-    padding: 50px;
+
+}
+main #sectionCv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+main section .estudios{
+    font-weight: bold;
+}
+h1 , h2 , h3 , h4 , span{
+    color: whitesmoke;
 }

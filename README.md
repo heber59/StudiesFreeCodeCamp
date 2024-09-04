@@ -12,7 +12,7 @@ this are the projects I make studying with free code camp
 
 2. personal portfolio
 
-    - Starting, it will be a great portfolio, just need project to show :>.
+    - [readme portfolio](/HTML/personal%20portafolio/ReadmePortafolio.md).
 
 ### javascript 
 

@@ -20,11 +20,11 @@ function hiddeSections(){
 };
 function display_about_me(){
     hiddeSections();
-    section_about_me.style.display ='block';
+    section_about_me.style.display ='flex';
 };
 function display_cv(){
     hiddeSections();
-    section_cv.style.display ='block';
+    section_cv.style.display ='grid';
 };
 function display_others(){
     hiddeSections();
